@@ -1,67 +1,102 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.3 2021.07, Jul 13 2021
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/media/disk2/Dropbox (VLSIARCH - OSU)/ecen 3233 F21/Labs_F21/Lab3/Lab3/fsm
+Z1 dC:/Users/nday9/OneDrive/Pictures/Documents/GitHub/Lab3/lab3/sv
 T_opt
-Z1 !s110 1634053591
-V=N6OImSC;:idMJf6Z8Od92
-04 2 4 work tb fast 0
-=1-04d4c455214a-6165add7-be1e4-1a56cb
-o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+!s110 1698872537
+VbHgR6[]MHS>==4X7WjK?>2
+Z2 04 8 4 work stimulus fast 0
+=1-50ebf6e1bf00-6542bcd9-235-676c
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-OL;O;10.7e;67
-vclk_div
-Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z6 OL;O;2021.3;73
 R1
-!i10b 1
-!s100 G0W@kMdKY7A0SXdVd^k4b3
-IUjElP`E:C:Lnmb0?P`9le0
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-!s105 clk_div_sv_unit
-S1
-R0
-Z5 w1634051013
-8clk_div.sv
-Fclk_div.sv
-L0 1
-Z6 OL;L;10.7e;67
-r1
-!s85 0
-31
-Z7 !s108 1634053591.000000
-Z8 !s107 tb.sv|clk_div.sv|
-Z9 !s90 -reportprogress|300|clk_div.sv|tb.sv|
-!i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+T_opt1
+!s110 1698872658
+V0Nh_^o8EjX^ROOG;2A37D2
 R2
-vtb
+=1-50ebf6e1bf00-6542bd51-30a-61fc
 R3
-R1
-!i10b 1
-!s100 c1lo=F7Pl]K_cad_[@L<X3
-I?>N`i:MFI2;c`?Fh7eBUi1
 R4
-!s105 tb_sv_unit
-S1
-R0
 R5
-8tb.sv
-Ftb.sv
-L0 2
+n@_opt1
 R6
+R1
+T_opt2
+!s110 1698873180
+V3Xz<QG?zgAD]B5DaMhE=L1
+R2
+=1-50ebf6e1bf00-6542bf5b-3c2-204c
+R3
+R4
+R5
+n@_opt2
+R6
+vFSM
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1698873179
+!i10b 1
+!s100 8N^QIF5gYDcgmc<U__z5l2
+Ig4?_ab]OG`DRHKXRYBS@70
+S1
+R1
+w1698873086
+8fsm.sv
+Ffsm.sv
+!i122 0
+L0 1 72
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.3;73
 r1
 !s85 0
 31
+Z11 !s108 1698873179.000000
+Z12 !s107 fsm_tb.sv|fsm.sv|
+Z13 !s90 fsm.sv|fsm_tb.sv|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@f@s@m
+vstimulus
 R7
 R8
+!i10b 1
+!s100 JzjlZI7H]:Qbe;33?hK2C3
+I=VaOQ8NQ4_oe_D_aA7JEO3
+S1
+R1
+w1698872963
+8fsm_tb.sv
+Ffsm_tb.sv
+!i122 0
+L0 2 47
 R9
-!i113 0
 R10
-R2
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5

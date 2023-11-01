@@ -1,22 +1,26 @@
-1 x || 0
-1 x || 0
-1 x || 0
-1 x || 0
-1 x || 0
-1 x || 0
-1 x || 0
-1 x || 0
-0 0 || 0
-0 0 || 0
-0 0 || 0
-0 0 || 0
-0 1 || 0
-0 1 || 0
-0 1 || 1
-0 1 || 1
-0 0 || 1
-0 0 || 1
-0 0 || 0
-0 0 || 0
-0 0 || 0
-0 0 || 0
+Reset: 0 || Left: 1 Right: 0 || Y value: 000000
+Reset: 0 || Left: 1 Right: 0 || Y value: 000000
+Reset: 0 || Left: 1 Right: 0 || Y value: 000000
+Reset: 0 || Left: 1 Right: 0 || Y value: 000000
+Reset: 0 || Left: 1 Right: 0 || Y value: 001000
+Reset: 0 || Left: 1 Right: 0 || Y value: 001000
+Reset: 0 || Left: 1 Right: 0 || Y value: 011000
+Reset: 0 || Left: 1 Right: 0 || Y value: 011000
+Reset: 0 || Left: 1 Right: 0 || Y value: 111000
+Reset: 0 || Left: 0 Right: 0 || Y value: 111000
+Reset: 0 || Left: 0 Right: 1 || Y value: 000000
+Reset: 0 || Left: 0 Right: 1 || Y value: 000000
+Reset: 0 || Left: 0 Right: 1 || Y value: 000100
+Reset: 0 || Left: 0 Right: 1 || Y value: 000100
+Reset: 0 || Left: 0 Right: 1 || Y value: 000110
+Reset: 0 || Left: 0 Right: 1 || Y value: 000110
+Reset: 0 || Left: 0 Right: 1 || Y value: 000111
+Reset: 0 || Left: 0 Right: 1 || Y value: 000111
+Reset: 0 || Left: 0 Right: 1 || Y value: 000000
+Reset: 0 || Left: 1 Right: 1 || Y value: 000000
+Reset: 0 || Left: 1 Right: 1 || Y value: 001100
+Reset: 0 || Left: 1 Right: 1 || Y value: 001100
+Reset: 0 || Left: 1 Right: 1 || Y value: 011110
+Reset: 0 || Left: 1 Right: 1 || Y value: 011110
+Reset: 0 || Left: 1 Right: 1 || Y value: 111111
+Reset: 0 || Left: 1 Right: 1 || Y value: 111111
