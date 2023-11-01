@@ -1,0 +1,39 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
+| Date         : Wed Nov  1 16:58:40 2023
+| Host         : CEAT-ENDV350-11 running 64-bit major release  (build 9200)
+| Command      : report_timing -file route_report_timing_0.rpt -rpx route_report_timing_0.rpx
+| Design       : top_demo
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 dut/FSM_onehot_state_reg[4]/C
+                            (rising edge-triggered cell FDCE)
+  Destination:            led[2]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        8.203ns  (logic 4.072ns (49.640%)  route 4.131ns (50.360%))
+  Logic Levels:           3  (FDCE=1 LUT6=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y44          FDCE                         0.000     0.000 r  dut/FSM_onehot_state_reg[4]/C
+    SLICE_X1Y44          FDCE (Prop_fdce_C_Q)         0.456     0.456 r  dut/FSM_onehot_state_reg[4]/Q
+                         net (fo=2, routed)           1.155     1.611    dut/FSM_onehot_state_reg_n_0_[4]
+    SLICE_X1Y44          LUT6 (Prop_lut6_I4_O)        0.124     1.735 r  dut/led_OBUF[2]_inst_i_1/O
+                         net (fo=1, routed)           2.976     4.711    led_OBUF[2]
+    V7                   OBUF (Prop_obuf_I_O)         3.492     8.203 r  led_OBUF[2]_inst/O
+                         net (fo=0)                   0.000     8.203    led[2]
+    V7                                                                r  led[2] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
